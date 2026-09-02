@@ -1,7 +1,6 @@
 import random 
 
 jackpot = random.randint(1,100)
-print(jackpot)
 guess = int(input("Guess the number :"))
 
 while jackpot != guess:
